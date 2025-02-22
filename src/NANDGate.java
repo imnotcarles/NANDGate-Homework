@@ -8,6 +8,7 @@ public class NANDGate {
         boolean a = keyboard.nextBoolean();
         System.out.println("Please enter input b:");
         boolean b = keyboard.nextBoolean();
+        keyboard.close();
 
         boolean c = !(a && b);
 
